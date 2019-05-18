@@ -1,0 +1,13 @@
+jupyterhub:
+  proxy:
+    secretToken: "b45ee1323992777e84eabf9943eefbb238c67520df40d3a31f20352d43383ca8"
+
+  # comment this out if not using github authentication
+  auth:
+    type: dummy
+    dummy:
+      password: 'pangean_pwd'
+    whitelist:
+      users:
+        - pangean
+        - pangean_2
